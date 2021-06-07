@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{
+  margin-top:10px;
+}
+*{
+  box-sizing: border-box;
+  
+}
+ .one{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+ } 
+ .prev{
+   font-size:8vw;
+   border: none;
+   border-radius: 10px;
+   background-color:orange;
+   color: white;
+  box-shadow: 2px 2px 2px blue;
+ }
+ .next{
+   font-size: 8vw;
+   float: right;
+   padding-left: 40px;
+   padding-right:20px;
+   border: none;
+   border-radius: 10px;
+   background-color:darkblue;
+   color: navajowhite;
+   box-shadow: 2px 2px 2px orange;
+ }
+
+ a{
+   text-decoration: none;
+ }
+ .two h3{
+   text-align: center;
+ }
+    .dropdown
+{
+    position: absolute;
+    display: inline-block;
+}
+.dropdown_list
+{
+    display: none;
+    background-color: darkgray;
+    padding: 10px;
+    line-height:5vw;
+    font-size: 5vw;
+}
+.m5{ border:none;
+  
+  font-size: 10vw;
+  color: wheat;
+  background-color: black;
+  box-shadow: 2px 3px 2px limegreen;
+}
+.dropdown_list a{
+    text-decoration: none;
+    color:rgb(8, 48, 8) ;
+}
+.dropdown:hover .dropdown_list{
+    display: block;
+}
+section{
+  padding-left:20vw;
+  
+}
+.four{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size:5vw;
+}
+.notifi{
+  position:relative;
+  display: inline-block;
+  border-radius:10px;
+  background-color: darkblue;
+  color: white;
+  margin-left:10vw;
+  font-size:9vw;
+  padding:5vw;
+
+}
+.num{
+  background-color:green;
+  padding:2vw;
+  border-radius: 50%;
+}
+.notifi .num{
+  position: absolute;
+  top:-9vw;
+  right:-10vw;
+}
+</style>
+<script type="text/javascript" charset="utf-8">
+  function nameFun()
+  {
+   var x = document.getElementById("mouni").innerHTML+="<br><br>it is really good name<br><br>";
+   var y = document.getElementById("m1").value;
+    document.getElementById("mouni").innerHTML += y ;
+ 
+  
+    
+  }
+</script>
+
+</head>
+
+<body>
+  <pre style="font-size:8vw; text-shadow: 2px 5px 3px lawngreen; color: blue; text-transform: uppercase"> <b>Lets have some fun
+    on Buttons</b></pre>
+  <div class="one" id="m7">
+    <img src="Emoji6.jpg" width="100%" height="auto">
+  <pre><h2 style="font-size:5vw">Hi,my name is Mouni<br>
+ 
+ you have a suprise 
+  why are u waiting click 
+  on previous button<br>
+  before,tell me your name</h2>
+  <input type="text" placeholder="Enter u r name" style="font-size:5vw" id="m1"><span  id="mouni" onclick="nameFun()" style="font-size: 5vw">click</span>
+  </pre>
+  </div><br>
+  <button class="prev"><span style="font-size:10vw">&#8249; </span><a href="#m4">Previous
+  </a></button>
+  <button class="next" ><a style="color: white" href="#m8">Next </a><span style="font-size:10vw">&#8250;
+  </button>
+  <br>
+  <br ><br>
+  <br>
+  <br>
+  <br ><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <div class="two" id="m4">
+    
+    <img src="Emoji3.gif" width="100%" height="auto">
+    <h2 style="text-align: center">you are fooled There is no surprise</h2><br>
+    <h2 style="text-align: center">But i want to show you something</h2>
+   <br>
+   <h3 style="color:green; font-size: 5vw">keep dig in</h3>
+    <section>
+        <button class="m5"> keep digin</button>
+        <div class="dropdown">
+        <button class="m5">
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown_list">
+            <a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="">dig in<br></a><a href="#m6">here<i class="fa fa-download" style="color:red"></i><br></a>
+        </div>
+    </div>
+</section>
+ <br>
+  <br ><br>
+  <br>
+  <br>
+  <br ><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+   <br>
+   <br><br>
+   <br>
+   <br>
+   <br><br>
+   <br>
+   <br>
+   <br><br>
+   <br>
+   <br>
+   <br><br>
+   <br>
+   <br>
+   <br><br>
+   <br>
+
+   <div class="three" id="m6">
+<img src="tenor.gif" width="100%" height="auto">
+<h2 style="text-align: center; color:blue">You are fooled Again</h2>
+<h2 style="text-align: center; color:red">there is nothing to show you</h2>
+<h2  style="text-align: center; color:green" >But i know something about you
+</h2><br>
+<h2 style="text-align: center; color:darkcyan"  >If u want to know go to<a href="#m7"> top</a> <br><br>and click on next
+</h2>
+
+</div>
+<br>
+  <br ><br>
+  <br>
+  <br>
+  <br ><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+   <br>
+   <br><br>
+ 
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+   <br>
+   <br><br>
+  
+   
+   <div class="four" id="m8">
+  <img src="Roll.gif" width="100%" height="auto"><br>
+  <h2 style="color:orange">You are Fooled Again<br><br><br><span style="color:blue">I just know your name.</span><br><br>
+  <span style="color:darkblue">I am using you to test my buttons<br><br>are working or not</h2><br><br>
+  <h2 style="color:red">LETS SEE HOW MANY TIMES <br><br>U HAVE FOOLED<br><br><a href="#m9">click</a></h2>
+  
+  </div>
+ 
+  <br>
+  <br ><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+   <br>
+   <br><br>
+ 
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br><br>
+  <br>
+   <br>
+  <div class="notifi" id="m9">
+    <span>Fooled by me </span>
+    <span class="num">3 times</span>
+    
+  </div><br><br>
+  <img src="Emoji2.gif" width="100%" height="auto"><br>
+  <h1 style="text-align: center;font-size: 10vw; color:orange"><span style="text-shadow: 1px 4px 2px green">Thanks<br> for your Co-operation</h2> <bt>
+    <h2 style="text-align: center;font-size: 10vw; color: darkblue" ><span style="text-shadow: 1px 4px 2px orange">I hope u had some fun through this.</h1>
+
+</body>
+
+</html>
